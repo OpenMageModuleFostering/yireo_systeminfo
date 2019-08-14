@@ -2,11 +2,10 @@
 /**
  * SystemInfo extension for Magento 
  *
- * @category    design_default
  * @package     Yireo_SystemInfo
  * @author      Yireo (http://www.yireo.com/)
- * @copyright   Copyright (c) 2009 Yireo (http://www.yireo.com/)
- * @license     SystemInfo EULA (www.yireo.com)
+ * @copyright   Copyright (c) 2013 Yireo (http://www.yireo.com/)
+ * @license     Open Source License
  */
 
 class Yireo_SystemInfo_Block_Phpinfo extends Mage_Adminhtml_Block_Widget_Container

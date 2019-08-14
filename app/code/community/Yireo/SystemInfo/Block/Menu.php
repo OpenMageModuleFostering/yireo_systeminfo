@@ -2,11 +2,10 @@
 /**
  * SystemInfo extension for Magento 
  *
- * @category    design_default
  * @package     Yireo_SystemInfo
  * @author      Yireo (http://www.yireo.com/)
- * @copyright   Copyright (c) 2009 Yireo (http://www.yireo.com/)
- * @license     SystemInfo EULA (www.yireo.com)
+ * @copyright   Copyright (c) 2013 Yireo (http://www.yireo.com/)
+ * @license     Open Source License
  */
 
 class Yireo_SystemInfo_Block_Menu extends Mage_Core_Block_Template
@@ -34,6 +33,14 @@ class Yireo_SystemInfo_Block_Menu extends Mage_Core_Block_Template
             array(
                 'action' => 'phpinfo',
                 'title' => 'PHP Info',
+            ),
+            array(
+                'action' => 'overrides',
+                'title' => 'XML-overrides',
+            ),
+            array(
+                'action' => 'events',
+                'title' => 'Events',
             ),
         );
 

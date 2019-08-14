@@ -2,18 +2,17 @@
 /**
  * SystemInfo extension for Magento 
  *
- * @category    design_default
  * @package     Yireo_SystemInfo
  * @author      Yireo (http://www.yireo.com/)
- * @copyright   Copyright (c) 2009 Yireo (http://www.yireo.com/)
- * @license     Yireo Software EULA (www.yireo.com)
+ * @copyright   Copyright (c) 2013 Yireo (http://www.yireo.com/)
+ * @license     Open Source License
  */
 
 /**
  * SystemInfo admin controller
  *
  * @category   SystemInfo
- * @package    Yireo_SystemInfo
+ * @package     Yireo_SystemInfo
  */
 class Yireo_SystemInfo_IndexController extends Mage_Adminhtml_Controller_Action
 {
@@ -48,6 +47,26 @@ class Yireo_SystemInfo_IndexController extends Mage_Adminhtml_Controller_Action
     {
         $this->_initAction()
             ->_addContent($this->getLayout()->createBlock('systeminfo/phpinfo'))
+            ->renderLayout();
+    }
+
+    /**
+     * Overrides page
+     */
+    public function overridesAction()
+    {
+        $this->_initAction()
+            ->_addContent($this->getLayout()->createBlock('systeminfo/overrides'))
+            ->renderLayout();
+    }
+
+    /**
+     * Overrides page
+     */
+    public function eventsAction()
+    {
+        $this->_initAction()
+            ->_addContent($this->getLayout()->createBlock('systeminfo/events'))
             ->renderLayout();
     }
 }

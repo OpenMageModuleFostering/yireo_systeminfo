@@ -1,13 +1,13 @@
 {
     "name": "OpenMageModuleFostering/Yireo_SystemInfo",
     "type": "magento-module",
-    "license": "Open-Software-License",
+    "license": "Open-Source-License",
     "homepage": "",
-    "description": "This module displays Magento-related System Information",
+    "description": "No summary",
     "authors": [
     {
         "name": "Yireo",
-        "email": "info@jira.nl"
+        "email": "info@yireo.com"
     }
 ],
     "suggest": {

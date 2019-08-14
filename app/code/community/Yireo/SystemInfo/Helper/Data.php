@@ -2,10 +2,10 @@
 /**
  * Yireo SystemInfo for Magento 
  *
- * @package     Yire_SystemInfo
+ * @package     Yireo_SystemInfo
  * @author      Yireo (http://www.yireo.com/)
- * @copyright   Copyright (c) 2009 Yireo (http://www.yireo.com/)
- * @license     Open Software License
+ * @copyright   Copyright (c) 2013 Yireo (http://www.yireo.com/)
+ * @license     Open Source License
  */
 
 /**

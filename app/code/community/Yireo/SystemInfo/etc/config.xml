@@ -3,9 +3,9 @@
 /**
  * Yireo SystemInfo for Magento 
  *
- * @package     Yire_SystemInfo
+ * @package     Yireo_SystemInfo
  * @author      Yireo (http://www.yireo.com/)
- * @copyright   Copyright (c) 2009 Yireo (http://www.yireo.com/)
+ * @copyright   Copyright (c) 2013 Yireo (http://www.yireo.com/)
  * @license     Open Software License
  */
 -->
@@ -13,7 +13,7 @@
 
     <modules>
         <Yireo_SystemInfo>
-            <version>1.0.7</version>
+            <version>1.0.8</version>
         </Yireo_SystemInfo>
     </modules>
 
