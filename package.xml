@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Yireo_SystemInfo</name>
+    <version>1.0.7</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php/">Open Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This module displays Magento-related System Information</summary>
+    <description>This module displays Magento-related System Information</description>
+    <notes>This module displays Magento-related System Information</notes>
+    <authors><author><name>Yireo</name><user>auto-converted</user><email>info@jira.nl</email></author></authors>
+    <date>2010-02-10</date>
+    <time>10:38:57</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="systeminfo"><file name="menu.phtml" hash="135bffae0277a084c259a7f4668e4fd1"/><file name="overview.phtml" hash="dfc0163dc1facec810cc8d4aaabbaca2"/><file name="phpinfo.phtml" hash="f0ea07f9a4c812266ca380acfa26777b"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Yireo"><dir name="SystemInfo"><dir name="controllers"><file name="IndexController.php" hash="b12d9bf59d4a22b5ef8f8556bce11a71"/></dir><dir name="Block"><file name="Menu.php" hash="09e9e7062fe60338ddd35fe15ebdb241"/><file name="Overview.php" hash="c3818f0cd36e373a847cf6275a48d193"/><file name="Phpinfo.php" hash="734cfec644472feae437b94a232e6588"/></dir><dir name="etc"><file name="config.xml" hash="9f45e265abb074692977757327fecda7"/></dir><dir name="Helper"><file name="Data.php" hash="f93409130daf2f8230919af9fb54fd5c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Yireo_SystemInfo.xml" hash="278d1a6922708a098215a34733cb8bc6"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
