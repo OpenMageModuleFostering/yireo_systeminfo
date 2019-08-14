@@ -4,8 +4,8 @@
  *
  * @package     Yireo_SystemInfo
  * @author      Yireo (http://www.yireo.com/)
- * @copyright   Copyright (c) 2013 Yireo (http://www.yireo.com/)
- * @license     Open Source License
+ * @copyright   Copyright (C) 2014 Yireo (http://www.yireo.com/)
+ * @license     Open Source License (OSL v3)
  */
 
 class Yireo_SystemInfo_Block_Overview extends Mage_Adminhtml_Block_Widget_Container
@@ -45,5 +45,20 @@ class Yireo_SystemInfo_Block_Overview extends Mage_Adminhtml_Block_Widget_Contai
         } else {
             return $this->__('Not available');
         }
+    }
+
+    public function getPhpVersion()
+    {
+        if(function_exists('phpversion')) {
+            return phpversion();
+        }
+    }
+
+    public function getWebserverVersion()
+    {
+        if(function_exists('apache_get_version')) {
+            return 'Apache '.apache_get_version();
+        }
+        return 'unknown';
     }
 }

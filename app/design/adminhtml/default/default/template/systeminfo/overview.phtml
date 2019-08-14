@@ -35,12 +35,14 @@
         <tbody>
             <tr>
                 <td width="300">PHP version</td>
-                <td><?php echo phpversion(); ?></td>
+                <td><?php echo $this->getPhpVersion(); ?></td>
             </tr>
+            <?php if(function_exists('apache_get_version')): ?>
             <tr>
-                <td width="300">Apache version</td>
-                <td><?php echo apache_get_version(); ?></td>
+                <td width="300">Webserver version</td>
+                <td><?php echo $this->getWebserverVersion(); ?></td>
             </tr>
+            <?php endif; ?>
             <tr>
                 <td width="300">PHP memory</td>
                 <td><?php echo ini_get('memory_limit'); ?></td>

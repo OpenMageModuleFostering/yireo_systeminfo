@@ -5,15 +5,15 @@
  *
  * @package     Yireo_SystemInfo
  * @author      Yireo (http://www.yireo.com/)
- * @copyright   Copyright (c) 2013 Yireo (http://www.yireo.com/)
- * @license     Open Software License
+ * @copyright   Copyright (C) 2014 Yireo (http://www.yireo.com/)
+ * @license     Open Source License (OSL v3)
  */
 -->
 <config>
 
     <modules>
         <Yireo_SystemInfo>
-            <version>1.0.8</version>
+            <version>1.0.9</version>
         </Yireo_SystemInfo>
     </modules>
 
@@ -76,6 +76,13 @@
                                         </systeminfo>
                                     </children>
                                 </config>
+                                <tools>
+                                    <children>
+                                        <systeminfo translate="title" module="systeminfo">
+                                            <title>SystemInfo</title>
+                                        </systeminfo>
+                                    </children>
+                                </tools>
                             </children>
                         </system>
                     </children>
